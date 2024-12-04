@@ -1,0 +1,11 @@
+Model Information:
+* title:	[MOCAP POLISH] Moff Gideon Cape Off Animation
+* source:	https://sketchfab.com/3d-models/mocap-polish-moff-gideon-cape-off-animation-ac1f0a77ad9b4293bbe74695d8ace96f
+* author:	Marc Palma (https://sketchfab.com/marcpt00)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "[MOCAP POLISH] Moff Gideon Cape Off Animation" (https://sketchfab.com/3d-models/mocap-polish-moff-gideon-cape-off-animation-ac1f0a77ad9b4293bbe74695d8ace96f) by Marc Palma (https://sketchfab.com/marcpt00) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

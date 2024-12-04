@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stormtrooper Idle Animation
+* source:	https://sketchfab.com/3d-models/stormtrooper-idle-animation-a2f2f9b014f44dfe997953788290209f
+* author:	Marc Palma (https://sketchfab.com/marcpt00)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stormtrooper Idle Animation" (https://sketchfab.com/3d-models/stormtrooper-idle-animation-a2f2f9b014f44dfe997953788290209f) by Marc Palma (https://sketchfab.com/marcpt00) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
