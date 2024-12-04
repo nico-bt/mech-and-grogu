@@ -8,7 +8,7 @@ import Ship from "./Ship"
 import Gideon from "./Gideon"
 // THREE.ColorManagement.legacyMode = false
 
-function InitialText({ position = [12, 8.5, 46] }) {
+function InitialText({ position = [12, 8.5, 50] }) {
   return (
     <group position={position}>
       <Text
@@ -23,7 +23,7 @@ function InitialText({ position = [12, 8.5, 46] }) {
         <meshBasicMaterial toneMapped={false} />
         <Text position={[0, 1.25, 0]}>⬆️</Text>
         <Text>⬅️⬇️➡️</Text>
-        <Text scale={0.6} position={[0, -2.25, 0]}>
+        <Text fontWeight={600} scale={0.65} position={[0, -2.25, 0]}>
           Hold Shift: Run
         </Text>
         <Text fontWeight={200} scale={1.25} position={[0, -1.25, 0]}>
@@ -34,10 +34,10 @@ function InitialText({ position = [12, 8.5, 46] }) {
   )
 }
 
-function Level({ hideInitialText }) {
+function Level() {
   return (
     <>
-      {!hideInitialText && <InitialText />}
+      <InitialText />
 
       <group rotation={[0, 3.14, 0]}>
         <Bunker />

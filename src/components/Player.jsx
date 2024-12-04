@@ -27,7 +27,7 @@ const lerpAngle = (start, end, t) => {
   return normalizeAngle(start + (end - start) * t)
 }
 
-export default function Player({ setKeyForResetFigures, setHideInitialText }) {
+export default function Player({ setKeyForResetFigures }) {
   const WALK_SPEED = 7
   const RUN_SPEED = 17
   const ROTATION_SPEED = degToRad(1)
@@ -188,11 +188,6 @@ export default function Player({ setKeyForResetFigures, setHideInitialText }) {
         rb.current.setLinvel({ x: 0, y: 0, z: 0 })
         rb.current.setAngvel({ x: 0, y: 0, z: 0 })
         rb.current.setTranslation({ x: 0, y: 12, z: 30 })
-      }
-
-      // Hide initial text when player is far from bunker
-      if (playerPosition.z < -24) {
-        setHideInitialText(true)
       }
     }
   })

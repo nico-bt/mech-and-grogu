@@ -20,7 +20,6 @@ export default function Home() {
   ]
 
   const [keyForResetFigures, setKeyForResetFigures] = useState(1)
-  const [hideInitialText, setHideInitialText] = useState(false)
 
   return (
     <>
@@ -37,11 +36,8 @@ export default function Home() {
           <Physics>
             <KeyboardControls map={keyboardMap}>
               {/* <Lights /> */}
-              <Player
-                setKeyForResetFigures={setKeyForResetFigures}
-                setHideInitialText={setHideInitialText}
-              />
-              <Level key={keyForResetFigures} hideInitialText={hideInitialText} />
+              <Player setKeyForResetFigures={setKeyForResetFigures} />
+              <Level key={keyForResetFigures} />
             </KeyboardControls>
           </Physics>
         </Suspense>
