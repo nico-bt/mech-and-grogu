@@ -40,10 +40,11 @@ export default function Home() {
               <Level key={keyForResetFigures} />
             </KeyboardControls>
           </Physics>
+
+          <Music />
         </Suspense>
       </Canvas>
 
-      <Music />
       <Loader />
     </>
   )
